@@ -1,0 +1,18 @@
+{
+  "schema": "ega_zh_hans_cn_cumulative_release_index/v1",
+  "locale": "zh-Hans-CN",
+  "repository": "https://github.com/KokunoYumeto/ega-zh-hans-cn",
+  "parent_ega_concept_doi": "10.5281/zenodo.20414353",
+  "lineage_status": "INITIAL_RELEASE_STAGED",
+  "releases": [
+    {
+      "release_id": "2026-08-26-ega-ii",
+      "scope": "Complete EGA II through printed page 222",
+      "path": "releases/2026-08-26-ega-ii",
+      "reader_sha256": "B5F5744111D3FFD97E6A9127BBA565B809C50584B1D79C8623EB2D8C950FEFCA",
+      "source_archive_sha256": "F4C0231FF3EC55898D7C60C58EFD582E1F8D3333490A9BCAB35C815D8BB78393",
+      "zenodo_concept_doi": null,
+      "zenodo_record_doi": null
+    }
+  ]
+}

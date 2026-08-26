@@ -1,0 +1,35 @@
+{
+  "creators": [
+    {"name": "Grothendieck, Alexander"},
+    {"name": "Dieudonné, Jean"}
+  ],
+  "contributors": [
+    {"name": "AI typesetting & translation", "type": "Other"}
+  ],
+  "title": "《代数几何学原理 II》简体中文版 / Éléments de géométrie algébrique II — Unofficial Simplified-Chinese Edition",
+  "version": "2026-08-26-r1",
+  "access_right": "open",
+  "description": "<p>This is the first release in the single cumulative mainland Simplified-Chinese (<code>zh-Hans-CN</code>) EGA language lineage. It contains the complete EGA II fascicle: front matter, §§1–8 through §8.14.14, bibliography, indexes, contents, and <em>Errata et Addenda, Liste 1</em>, through printed page 222. EGA I is absent and may be added later as a successor in this same concept lineage.</p><p>The reader and editable-source archive passed deterministic source/formula/reference replay, serial LuaLaTeX builds, font and glyph checks, extraction, internal-link validation, archive replay, privacy review, and all-page visual inspection. The release is producer-complete and mechanically/visually verified; it does not claim independent Chinese-language certification.</p><p>This is an independent, unofficial translation and typesetting project. It does not imply endorsement by the historical authors, IHÉS, NUMDAM, a publisher, or any institution. The NUMDAM scan and French/English witnesses are excluded. No new blanket public-domain or open-license claim is made over the underlying EGA text. The public repository is <a href=\"https://github.com/KokunoYumeto/ega-zh-hans-cn\">KokunoYumeto/ega-zh-hans-cn</a>.</p>",
+  "related_identifiers": [
+    {
+      "identifier": "https://doi.org/10.5281/zenodo.20414353",
+      "relation": "isPartOf",
+      "resource_type": "publication-other"
+    }
+  ],
+  "keywords": [
+    "Éléments de géométrie algébrique",
+    "EGA",
+    "algebraic geometry",
+    "代数几何",
+    "简体中文",
+    "Simplified Chinese translation",
+    "zh-Hans-CN",
+    "Grothendieck",
+    "Dieudonné"
+  ],
+  "license": "notspecified",
+  "upload_type": "publication",
+  "publication_type": "book",
+  "language": "zho"
+}
