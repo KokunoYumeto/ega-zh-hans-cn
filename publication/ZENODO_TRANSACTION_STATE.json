@@ -1,0 +1,15 @@
+{
+  "schema": "ega_zh_hans_cn_zenodo_transaction_state/v1",
+  "status": "PUBLISHED_AND_ANONYMOUSLY_VERIFIED",
+  "deposition_id": 22105819,
+  "concept_record_id": 22105818,
+  "reserved_record_doi": "10.5281/zenodo.22105819",
+  "concept_doi": "10.5281/zenodo.22105818",
+  "intended_parent_concept_doi": "10.5281/zenodo.20414353",
+  "intended_repository": "https://github.com/KokunoYumeto/ega-zh-hans-cn",
+  "release": "2026-08-26-r1",
+  "public_record_url": "https://zenodo.org/records/22105819",
+  "public_file_count": 9,
+  "anonymous_readback_mismatches": 0,
+  "next_action": "Preserve this release unchanged; add EGA I later only as a successor in the same repository and Zenodo concept."
+}

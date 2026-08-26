@@ -9,6 +9,8 @@ The initial preserved release contains the complete EGA II fascicle: front matte
 - Reader: [`ega2-zh-hans-cn.pdf`](releases/2026-08-26-ega-ii/ega2-zh-hans-cn.pdf)
 - Editable-source archive: [`ega2-zh-hans-cn-source.zip`](releases/2026-08-26-ega-ii/ega2-zh-hans-cn-source.zip)
 - Exact inventory and QA evidence: [`releases/2026-08-26-ega-ii/`](releases/2026-08-26-ega-ii/)
+- Zenodo record DOI: [10.5281/zenodo.22105819](https://doi.org/10.5281/zenodo.22105819)
+- Stable Chinese-edition concept DOI: [10.5281/zenodo.22105818](https://doi.org/10.5281/zenodo.22105818)
 
 The reader has passed deterministic corpus/formula/reference replay, serial LuaLaTeX builds, font and glyph checks, text extraction, link validation, privacy review, archive replay, and all-page visual inspection. Its status is producer-complete and mechanically/visually verified, but not independently certified for Chinese prose.
 
@@ -24,5 +26,4 @@ This is an independent scholarly translation and typesetting project. It is not 
 
 ---
 
-本仓库是 EGA 中国大陆简体中文独立非官方版本的唯一累计发布谱系。首个版本完整收录 EGA II；EGA I 尚未收录，今后如发布，将作为同一仓库和同一 Zenodo 概念谱系的后继版本加入。
-
+本仓库是 EGA 中国大陆简体中文独立非官方版本的唯一累计发布谱系。首个版本完整收录 EGA II；EGA I 尚未收录，今后如发布，将作为同一仓库和同一 Zenodo 概念谱系的后继版本加入。稳定概念 DOI 为 [10.5281/zenodo.22105818](https://doi.org/10.5281/zenodo.22105818)。

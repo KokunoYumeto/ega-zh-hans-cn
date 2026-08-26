@@ -1,0 +1,56 @@
+{
+  "schema": "ega_zh_hans_cn_canon_publication_receipt/v1",
+  "status": "PASS",
+  "release": "2026-08-26-r1",
+  "scope": "Complete EGA II zh-Hans-CN through section 8.14.14 and printed page 222; EGA I absent and pending",
+  "lineage": {
+    "decision": "First and only EGA zh-Hans-CN child lineage; no prior public, private, branch, tag, draft-release, Zenodo-record, or Zenodo-draft lineage existed",
+    "repository": "https://github.com/KokunoYumeto/ega-zh-hans-cn",
+    "branch": "main",
+    "packet_commit": "09ffb8827280bccb97d354d4f3fe4a95d883f0d5",
+    "tag": "ega-zh-hans-cn-2026-08-26-r1",
+    "zenodo_concept_doi": "10.5281/zenodo.22105818",
+    "zenodo_record_doi": "10.5281/zenodo.22105819",
+    "parent_ega_concept_doi": "10.5281/zenodo.20414353"
+  },
+  "metadata": {
+    "language": "zho",
+    "locale": "zh-Hans-CN",
+    "license": "notspecified",
+    "relation": "isPartOf",
+    "relation_target": "10.5281/zenodo.20414353",
+    "independent_chinese_certification": false,
+    "new_blanket_rights_claim": false
+  },
+  "packet": {
+    "files": 9,
+    "zenodo_anonymous_readback_files": 9,
+    "zenodo_anonymous_readback_mismatches": 0,
+    "reader": {
+      "filename": "ega2-zh-hans-cn.pdf",
+      "bytes": 2298760,
+      "sha256": "B5F5744111D3FFD97E6A9127BBA565B809C50584B1D79C8623EB2D8C950FEFCA",
+      "pages": 206
+    },
+    "source_archive": {
+      "filename": "ega2-zh-hans-cn-source.zip",
+      "bytes": 525484,
+      "sha256": "F4C0231FF3EC55898D7C60C58EFD582E1F8D3333490A9BCAB35C815D8BB78393",
+      "entries": 336
+    },
+    "manifest_sha256": "3DA1EAE7034241397AB8E18195690AF00F194CFAFC6A602E6CA43E5DD3FCACC3",
+    "qa_sha256": "863D23DC2DEE7853E8555F40B30A2B5247B631AF1ABD4DC35701F6DA43501A7A",
+    "source_archive_manifest_sha256": "9F733FB3A5F1F0BE5BD787570D82885233BD39BA1E75E95501E52F7EB08A551A"
+  },
+  "validation": {
+    "producer_replay": "PASS",
+    "independent_packet_audit": "PASS",
+    "zip_reopen_and_member_hashes": "PASS",
+    "pdf_strict_parse_and_full_render": "PASS",
+    "all_page_visual_review": "PASS",
+    "fonts_glyphs_extraction_links": "PASS",
+    "privacy_scan": "PASS",
+    "zenodo_public_byte_readback": "PASS"
+  },
+  "nonblocking_note": "Archived visual-QA wording places the printed-p.222 anchor on reader page 206; the visible and named anchor begins correctly on page 205 and page 206 continues that material. Navigation and content are correct; packet bytes remain unchanged."
+}

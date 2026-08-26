@@ -14,10 +14,14 @@ contributors:
     type: other
     contribution: "AI typesetting, translation, deterministic replay, and quality assurance"
 repository-code: "https://github.com/KokunoYumeto/ega-zh-hans-cn"
+doi: 10.5281/zenodo.22105819
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22105819
+    description: "EGA II zh-Hans-CN release record"
 keywords:
   - algebraic geometry
   - EGA
   - Simplified Chinese
   - zh-Hans-CN
   - mathematical translation
-
