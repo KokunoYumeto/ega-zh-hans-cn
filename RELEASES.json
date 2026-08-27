@@ -13,6 +13,15 @@
       "source_archive_sha256": "F4C0231FF3EC55898D7C60C58EFD582E1F8D3333490A9BCAB35C815D8BB78393",
       "zenodo_concept_doi": "10.5281/zenodo.22105818",
       "zenodo_record_doi": "10.5281/zenodo.22105819"
+    },
+    {
+      "release_id": "2026-08-27-ega-i",
+      "scope": "Complete EGA I through terminal imprint; cumulative lineage now contains complete EGA I and EGA II",
+      "path": "releases/2026-08-27-ega-i",
+      "reader_sha256": "BFD7B1D1EF3EE795BB7952130F70483B1641E543B882EBD0920CF43628BFBA17",
+      "source_archive_sha256": "41B69DFFA47C5254E04697CCBE5AEF1296B1A917209CB11711A1E0BA4A2A1F1C",
+      "zenodo_concept_doi": "10.5281/zenodo.22105818",
+      "zenodo_record_doi": "10.5281/zenodo.22134255"
     }
   ]
 }

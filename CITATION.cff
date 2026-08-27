@@ -1,9 +1,9 @@
 cff-version: 1.2.0
-message: "If you use this edition, cite the historical work and this specific language-edition release."
-title: "Éléments de géométrie algébrique II — Unofficial Simplified-Chinese Edition"
+message: "If you use this edition, cite the historical work and this specific cumulative language-edition release."
+title: "Éléments de géométrie algébrique I–II — Unofficial Simplified-Chinese Edition"
 type: book
-version: "2026.08.26-ega2"
-date-released: 2026-08-26
+version: "2026.08.27-ega1-2"
+date-released: 2026-08-27
 authors:
   - family-names: Grothendieck
     given-names: Alexander
@@ -14,11 +14,11 @@ contributors:
     type: other
     contribution: "AI typesetting, translation, deterministic replay, and quality assurance"
 repository-code: "https://github.com/KokunoYumeto/ega-zh-hans-cn"
-doi: 10.5281/zenodo.22105819
+doi: 10.5281/zenodo.22134255
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.22105819
-    description: "EGA II zh-Hans-CN release record"
+    value: 10.5281/zenodo.22134255
+    description: "Cumulative EGA I–II zh-Hans-CN release record"
 keywords:
   - algebraic geometry
   - EGA
