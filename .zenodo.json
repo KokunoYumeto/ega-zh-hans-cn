@@ -6,10 +6,10 @@
   "contributors": [
     {"name": "OpenAI Codex", "type": "Other"}
   ],
-  "title": "《代数几何学原理 I–II》简体中文版 / Éléments de géométrie algébrique I–II — Unofficial Simplified-Chinese Edition",
-  "version": "2026-08-27-r2",
+  "title": "《代数几何学原理 I–III》大陆简体中文版",
+  "version": "2026-09-23-r3",
   "access_right": "open",
-  "description": "<p>This cumulative mainland Simplified-Chinese (<code>zh-Hans-CN</code>) edition contains the complete EGA I and EGA II volumes by Alexander Grothendieck and Jean Dieudonné. EGA I covers its front matter, introduction, Chapter 0, Chapter I through I.10.15.7, bibliography, notation and terminology indexes, contents, receipt date, and imprint. The inherited EGA II packet remains byte-for-byte unchanged and covers its front matter, §§1–8 through §8.14.14, bibliography, indexes, contents, and <em>Errata et Addenda, Liste 1</em> through printed page 222.</p><p>The readers and editable-source archives passed deterministic source/formula/reference replay, serial LuaLaTeX builds, font and glyph checks, extraction, internal-link validation, archive replay, privacy review, and all-page visual inspection. The release is producer-complete and mechanically/visually verified; it does not claim independent Chinese-language certification.</p><p>This is an independent, unofficial translation and typesetting project. It does not imply endorsement by the historical authors, IHÉS, NUMDAM, a publisher, or any institution. The NUMDAM scans and French/English witnesses are excluded. No new blanket public-domain or open-license claim is made over the underlying EGA text. The public repository is <a href=\"https://github.com/KokunoYumeto/ega-zh-hans-cn\">KokunoYumeto/ega-zh-hans-cn</a>.</p>",
+  "description": "<p><strong>《代数几何学原理 I–III》大陆简体中文版</strong>是 Alexander Grothendieck 与 Jean Dieudonné 的 <em>Éléments de géométrie algébrique</em> 第一卷至第三卷的独立、非官方累计工作版。本版本完整收入 EGA I、EGA II、EGA III-1 与 EGA III-2，共四册、680 页，并保留公式、交换图、编号、交叉引用、引文、原印本页码锚点、参考文献、索引、目录和相应勘误材料。</p><p>文件按人类阅读顺序排列：每册均依次提供 PDF 阅读版、包含该册全部正文的直接下载单文件 LaTeX，以及可重建该册的完整模块化源代码 ZIP。EGA I PDF 是默认预览；QA、清单、来源锁和生产记录全部排在四册的阅读与编辑文件之后。新补充的 EGA I、EGA II 单文件 LaTeX 已用四遍串行 LuaLaTeX 重建，输出与既有公开读者的页面几何、提取文本及全部 420 页的渲染像素一致。EGA III 两册由所发布的单文件 LaTeX 确定性构建，并完成结构、公式、字体、文本提取、链接和全部 260 页的视觉核验。</p><p>数学内容以 NUMDAM 法文印本和受控的法文外交式文本为依据；英文文本仅作次要比较材料。由法文 Canon 接纳的订正以可逆来源说明进入中文阅读层。本累计版的中文翻译、订正整合、排版、构建和机器核验由 <strong>OpenAI Codex — GPT-5.6 Sol（Ultra 推理强度）</strong> 完成；截至本版封存，未进行人工翻译、人工编辑或人工审校。“生产者完成”不等于独立中文学术认证。</p><p>本版不代表原作者、IHÉS、NUMDAM、出版社或任何机构的认可。NUMDAM 扫描件和法文、英文见证文件不在发布包中再分发；本版不对 EGA 原文主张新的开放许可证或公共领域身份。公开累计仓库为 <a href=\"https://github.com/KokunoYumeto/ega-zh-hans-cn\">KokunoYumeto/ega-zh-hans-cn</a>。EGA IV 尚未收入本版，后续将只在同一累计谱系中加入。</p>",
   "related_identifiers": [
     {
       "identifier": "https://doi.org/10.5281/zenodo.20414353",
@@ -20,10 +20,9 @@
   "keywords": [
     "Éléments de géométrie algébrique",
     "EGA",
-    "algebraic geometry",
     "代数几何",
-    "简体中文",
-    "Simplified Chinese translation",
+    "大陆简体中文",
+    "简体中文数学翻译",
     "zh-Hans-CN",
     "Grothendieck",
     "Dieudonné"
@@ -33,3 +32,4 @@
   "publication_type": "book",
   "language": "zho"
 }
+

@@ -1,9 +1,9 @@
 cff-version: 1.2.0
-message: "If you use this edition, cite the historical work and this specific cumulative language-edition release."
-title: "Éléments de géométrie algébrique I–II — Unofficial Simplified-Chinese Edition"
+message: "引用本版本时，请同时引用历史原作和本次大陆简体中文累计版本。"
+title: "《代数几何学原理 I–III》大陆简体中文版"
 type: book
-version: "2026.08.27-ega1-2"
-date-released: 2026-08-27
+version: "2026.09.23-ega1-3"
+date-released: 2026-09-23
 authors:
   - family-names: Grothendieck
     given-names: Alexander
@@ -12,16 +12,17 @@ authors:
 contributors:
   - name: OpenAI Codex
     type: other
-    contribution: "AI typesetting, translation, deterministic replay, and quality assurance"
+    contribution: "GPT-5.6 Sol（Ultra 推理强度）：大陆简体中文翻译、订正整合、排版、确定性构建与机器核验"
 repository-code: "https://github.com/KokunoYumeto/ega-zh-hans-cn"
-doi: 10.5281/zenodo.22134255
+doi: 10.5281/zenodo.22906004
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.22134255
-    description: "Cumulative EGA I–II zh-Hans-CN release record"
+    value: 10.5281/zenodo.22906004
+    description: "EGA I–III 大陆简体中文累计版本记录"
 keywords:
-  - algebraic geometry
+  - 代数几何
   - EGA
-  - Simplified Chinese
+  - 大陆简体中文
   - zh-Hans-CN
-  - mathematical translation
+  - 数学翻译
+
