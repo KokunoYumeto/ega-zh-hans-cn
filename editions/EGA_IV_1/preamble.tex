@@ -1,0 +1,212 @@
+\documentclass[UTF8,fontset=none,11pt,oneside,openany]{ctexbook}
+
+\usepackage{iftex}
+\usepackage{fontspec}
+\ifXeTeX
+  \usepackage{xeCJK}
+\fi
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont{texgyretermes-regular.otf}[
+  BoldFont=texgyretermes-bold.otf,
+  ItalicFont=texgyretermes-italic.otf,
+  BoldItalicFont=texgyretermes-bolditalic.otf
+]
+\setsansfont{texgyreheros-regular.otf}
+\setmonofont{lmmono10-regular.otf}[ItalicFont=lmmono10-italic.otf]
+\setCJKmainfont{FandolSong-Regular.otf}[
+  BoldFont=FandolSong-Bold.otf,
+  ItalicFont=FandolKai-Regular.otf,
+  BoldItalicFont=FandolSong-Bold.otf
+]
+\setCJKsansfont{FandolHei-Regular.otf}
+\setCJKmonofont{FandolFang-Regular.otf}
+\ifXeTeX
+  \xeCJKsetup{PunctStyle=kaiming,CheckSingle=true}
+  \XeTeXlinebreaklocale "zh"
+  \XeTeXlinebreakskip=0pt plus 1pt
+\fi
+
+\usepackage{amsmath}
+\ifLuaTeX
+  \usepackage{unicode-math}
+  \setmathfont{texgyretermes-math.otf}
+  \providecommand{\square}{\mdlgwhtsquare}
+\else
+  \usepackage{amssymb,mathrsfs}
+\fi
+\ifLuaTeX
+  \renewcommand{\leadsto}{\mathrel{\rightsquigarrow}}
+\fi
+
+\def\sh{\mathcal}
+\def\bb{\mathbf}
+\def\cat{\mathtt}
+\def\leq{\leqslant}
+\def\geq{\geqslant}
+\def\setmin{-}
+\def\rad{\mathfrak{r}}
+\def\nilrad{\mathfrak{N}}
+\def\emp{\varnothing}
+\def\vphi{\phi}
+\def\HH{\mathrm{H}}
+\def\CHH{\check{\HH}}
+\def\RR{\mathrm{R}}
+\def\LL{\mathrm{L}}
+\def\dual#1{{#1}^\vee}
+\def\kres{k}
+\def\C{\cat{C}}
+\def\op{^\cat{op}}
+\def\Set{\cat{Set}}
+\def\CHom{\cat{Hom}}
+\def\supertilde{{\,\widetilde{\,}\,}}
+\def\GL{\bb{GL}}
+\def\bbGamma{\boldsymbol\Gamma}
+\def\red{\mathrm{red}}
+\def\rg{\operatorname{rg}}
+\def\gr{\operatorname{gr}}
+\def\Gr{\operatorname{Gr}}
+\def\Hom{\operatorname{Hom}}
+\def\Proj{\operatorname{Proj}}
+\def\Tor{\operatorname{Tor}}
+\def\Ext{\operatorname{Ext}}
+\def\Supp{\operatorname{Supp}}
+\def\Ker{\operatorname{Ker}}
+\def\Im{\operatorname{Im}}
+\def\Coker{\operatorname{Coker}}
+\def\Spec{\operatorname{Spec}}
+\def\Spm{\operatorname{Spm}}
+\def\Spf{\operatorname{Spf}}
+\def\grad{\operatorname{grad}}
+\def\dimc{\operatorname{dimc}}
+\def\codim{\operatorname{codim}}
+\def\id{\operatorname{id}}
+\def\Der{\operatorname{Der}}
+\def\Diff{\operatorname{Diff}}
+\def\Hyp{\operatorname{Hyp}}
+\def\Tr{\operatorname{Tr}}
+
+\usepackage{graphicx}
+\usepackage{tikz-cd}
+\ifLuaTeX
+  \usepackage{luatex85}
+  \input{glyphtounicode.tex}
+  \pdfgentounicode=1
+\fi
+\usepackage[all]{xy}
+\ifLuaTeX
+  \makeatletter
+  \AtBeginDocument{%
+    \edef\xP@preclw{0.43799pt}%
+    \edef\xP@lw{\xP@dim\xP@preclw}%
+  }
+  \makeatother
+\fi
+\usepackage[shortlabels]{enumitem}
+\usepackage{marginnote}
+\newcommand{\SourceCorrectionNote}[1]{\footnote{#1}}
+\ifLuaTeX\else\usepackage{microtype}\fi
+\usepackage{fancyhdr}
+\usepackage[
+  a4paper,
+  inner=26mm,
+  outer=24mm,
+  top=24mm,
+  bottom=24mm,
+  headheight=14pt,
+  headsep=8mm,
+  footskip=12mm
+]{geometry}
+\usepackage[
+  unicode=true,
+  colorlinks=true,
+  linkcolor=black,
+  citecolor=black,
+  urlcolor=blue,
+  hypertexnames=false
+]{hyperref}
+
+\hypersetup{
+  pdftitle={代数几何原理 IV-1：概形与概形态射的局部研究（大陆简体中文工作检查点）},
+  pdfauthor={Alexander Grothendieck；Jean Dieudonné（协作编写）},
+  pdfsubject={依据 NUMDAM 法文印本与法文外交式 TeX 制作的大陆简体中文版本},
+  pdfkeywords={代数几何；概形；态射；EGA；简体中文}
+}
+
+\AtBeginDocument{\fontsize{11pt}{16.5pt}\selectfont}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{2em}
+\flushbottom
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small 代数几何原理 IV-1}
+\fancyhead[R]{\small 概形与态射的局部研究}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \fancyhead[L]{\small 代数几何原理 IV-1}%
+  \fancyhead[R]{\small 概形与态射的局部研究}%
+  \fancyfoot[C]{\thepage}%
+  \renewcommand{\headrulewidth}{0.4pt}%
+  \renewcommand{\footrulewidth}{0pt}%
+}
+
+\renewcommand{\contentsname}{目录}
+\renewcommand{\bibname}{参考文献}
+\renewcommand{\figurename}{图}
+\renewcommand{\tablename}{表}
+\renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+
+\newenvironment{env}[1][]{%
+  \par\medskip\noindent\textbf{(#1)}\ %
+}{\par}
+\newenvironment{definition}[1][]{%
+  \par\medskip\noindent\textbf{定义 (#1).}\ %
+}{\par}
+\newenvironment{lemma}[1][]{%
+  \par\medskip\noindent\textbf{引理 (#1).}\ %
+}{\par}
+\newenvironment{theorem}[1][]{%
+  \par\medskip\noindent\textbf{定理 (#1).}\ %
+}{\par}
+\newenvironment{proposition}[1][]{%
+  \par\medskip\noindent\textbf{命题 (#1).}\ %
+}{\par}
+\newenvironment{corollary}[1][]{%
+  \par\medskip\noindent\textbf{推论 (#1).}\ %
+}{\par}
+\newenvironment{remark}[1][]{%
+  \par\medskip\noindent\textbf{注 (#1).}\ %
+}{\par}
+\newenvironment{remarks}[1][]{%
+  \par\medskip\noindent\textbf{注 (#1).}\ %
+}{\par}
+\newenvironment{notation}[1][]{%
+  \par\medskip\noindent\textbf{记号 (#1).}\ %
+}{\par}
+\newenvironment{example}[1][]{%
+  \par\medskip\noindent\textbf{例 (#1).}\ %
+}{\par}
+\newenvironment{examples}[1][]{%
+  \par\medskip\noindent\textbf{例 (#1).}\ %
+}{\par}
+\newenvironment{proof}{%
+  \par\smallskip\noindent\textit{证明.}\ %
+}{\hfill$\square$\par}
+
+\makeatletter
+\newcommand{\oldpage}[2][]{%
+  \ifcsname ega@sourcepage@IVone@#2\endcsname
+  \else
+    \expandafter\gdef\csname ega@sourcepage@IVone@#2\endcsname{1}%
+    \hypertarget{ega-source-page-IV1-#2}{}%
+  \fi
+  \marginnote{\scriptsize\textbf{#1}~|~#2}\ignorespaces}
+\makeatother
+
+\let\EGAOriginalLabel\label
+\renewcommand{\label}[1]{\phantomsection\EGAOriginalLabel{#1}}
