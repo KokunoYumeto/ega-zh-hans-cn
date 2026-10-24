@@ -1,28 +1,49 @@
 cff-version: 1.2.0
-message: "引用本版本时，请同时引用历史原作和本次大陆简体中文累计版本。"
-title: "《代数几何学原理 I–III》大陆简体中文版"
-type: book
-version: "2026.09.23-ega1-3"
-date-released: 2026-09-23
-authors:
-  - family-names: Grothendieck
-    given-names: Alexander
-  - family-names: Dieudonné
-    given-names: Jean
-contributors:
-  - name: OpenAI Codex
-    type: other
-    contribution: "GPT-5.6 Sol（Ultra 推理强度）：大陆简体中文翻译、订正整合、排版、确定性构建与机器核验"
-repository-code: "https://github.com/KokunoYumeto/ega-zh-hans-cn"
+message: 引用本版本时，请同时引用历史原作和本次大陆简体中文累计版本。
+title: 《代数几何学原理 I–III》大陆简体中文版
+version: 2026.09.23-ega1-3
+date-released: '2026-09-23'
+authors: &id001
+- family-names: Grothendieck
+  given-names: Alexander
+- family-names: Dieudonné
+  given-names: Jean
+repository-code: https://github.com/KokunoYumeto/ega-zh-hans-cn
 doi: 10.5281/zenodo.22906004
 identifiers:
-  - type: doi
-    value: 10.5281/zenodo.22906004
-    description: "EGA I–III 大陆简体中文累计版本记录"
+- type: doi
+  value: 10.5281/zenodo.22906004
+  description: EGA I–III 大陆简体中文累计版本记录
 keywords:
-  - 代数几何
-  - EGA
-  - 大陆简体中文
-  - zh-Hans-CN
-  - 数学翻译
-
+- 代数几何
+- EGA
+- 大陆简体中文
+- zh-Hans-CN
+- 数学翻译
+references:
+- type: software
+  title: EGA — community English translation
+  authors:
+  - family-names: Carmona
+    given-names: Mateo
+  - family-names: Holzschuh
+    given-names: Tim
+  - family-names: Hosgood
+    given-names: Tim
+  - family-names: Keleti
+    given-names: Ryan
+  - family-names: Solovera & Nery
+    given-names: Thiago
+  - family-names: Yang
+    given-names: Wayne
+  repository-code: https://github.com/ryankeleti/ega
+  url: https://github.com/ryankeleti/ega/tree/3d7afe28c99d1887ccdb85acf2ca1afd93fb1971
+  commit: 3d7afe28c99d1887ccdb85acf2ca1afd93fb1971
+preferred-citation:
+  type: book
+  title: 《代数几何学原理 I–III》大陆简体中文版
+  version: 2026.09.23-ega1-3
+  date-released: '2026-09-23'
+  authors: *id001
+  doi: 10.5281/zenodo.22906004
+abstract: 本书为人工智能生成的大陆简体中文翻译。翻译、订正与排版由 OpenAI Codex 完成，包括 GPT-5.6 Sol 与 GPT-6 Astra，推理强度 Ultra。原作及所继承的人类翻译的作者身份与来源分别保留。
