@@ -1,10 +1,5 @@
-# Purpose and use
+# 目的与用途
 
-This is an independent, non-commercial, educational edition. It was made and paid for privately by its
-maintainer, so that people can read the works of Alexander Grothendieck and his collaborators in their own
-language. Nothing here is sold, and no revenue is collected. The aim is to turn this material into open teaching
-resources, including public lesson plans.
+这是一个独立、非商业的教育版本，由维护者个人制作并出资，目的是让人们能够用自己的语言阅读亚历山大·格罗滕迪克及其合作者的著作。这里不出售任何东西，也不收取任何收入。目标是把这些材料变成开放的教学资源，包括公开的课程计划。
 
-The original works remain their authors' work, and the rights in them remain with their holders; this edition
-claims no ownership of the originals. The original texts are freely readable elsewhere, for example on Numdam and
-arXiv.
+原著仍是其作者的作品，相关权利仍归权利人所有；本版本不主张对原著的任何所有权。原文可在其他地方免费阅读，例如 Numdam 和 arXiv。
