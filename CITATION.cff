@@ -40,4 +40,4 @@ preferred-citation:
   version: 2026.09.23-ega1-3
   date-released: '2026-09-23'
   authors: *id001
-abstract: 本书为人工智能生成的大陆简体中文翻译。翻译、订正与排版由 OpenAI Codex 完成，包括 GPT-5.6 Sol 与 GPT-6 Astra，推理强度 Ultra。原作及所继承的人类翻译的作者身份与来源分别保留。
+abstract: 本书为人工智能完成的大陆简体中文翻译。翻译由 OpenAI Codex 的 GPT-5.6 Sol 完成，GPT-6 Astra 负责检查、订正和组装，推理强度 Ultra。原作及所继承的人类翻译的作者身份与来源分别保留。
